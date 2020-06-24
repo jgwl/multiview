@@ -1,6 +1,6 @@
 {
   "author": "Jarrett Lee",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Multiview",
   "version": "1.0",
   "background": {
@@ -27,6 +27,9 @@
   },
   "permissions": [
     "tabs",
-    "contextMenus"
+    "contextMenus",
+    "webRequest",
+    "webRequestBlocking",
+    "*://*/*"
   ]
 }   
